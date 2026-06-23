@@ -1,0 +1,286 @@
+.interview-history-page{
+
+  max-width:430px;
+  margin:auto;
+
+  min-height:100vh;
+
+  background:#eef2ef;
+
+  padding:24px;
+  padding-bottom:120px;
+}
+
+/* 顶部 */
+
+.history-header{
+
+  display:flex;
+  align-items:center;
+
+  gap:16px;
+
+  margin-bottom:24px;
+}
+
+.history-header h1{
+
+  font-size:28px;
+  font-weight:700;
+
+  color:#15161d;
+}
+
+.back-btn{
+
+  width:52px;
+  height:52px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:white;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  cursor:pointer;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.06);
+}
+
+/* 说明卡片 */
+
+.summary-card{
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  color:white;
+
+  border-radius:30px;
+
+  padding:24px;
+
+  margin-bottom:20px;
+
+  box-shadow:
+  0 20px 40px rgba(91,82,243,.25);
+}
+
+.summary-card h2{
+
+  font-size:24px;
+
+  margin-bottom:10px;
+}
+
+.summary-card p{
+
+  font-size:14px;
+
+  line-height:1.8;
+
+  opacity:.95;
+}
+
+/* 面试记录 */
+
+.interview-list{
+
+  display:flex;
+  flex-direction:column;
+
+  gap:14px;
+
+  margin-bottom:24px;
+}
+
+.interview-card{
+
+  background:white;
+
+  border-radius:24px;
+
+  padding:18px;
+
+  display:flex;
+
+  align-items:center;
+
+  gap:14px;
+
+  cursor:pointer;
+
+  transition:.2s;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.05);
+}
+
+.interview-card:hover{
+
+  transform:translateY(-2px);
+}
+
+.interview-left{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:14px;
+
+  flex:1;
+}
+
+.interview-icon{
+
+  width:52px;
+  height:52px;
+
+  border-radius:16px;
+
+  background:#eef2ff;
+
+  color:#5b52f3;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.interview-info h3{
+
+  font-size:16px;
+
+  color:#15161d;
+
+  margin-bottom:6px;
+}
+
+.interview-date{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  color:#8b8fa3;
+
+  font-size:13px;
+}
+
+.score-box{
+
+  min-width:70px;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  gap:6px;
+
+  color:#5b52f3;
+
+  font-weight:700;
+
+  background:#eef2ff;
+
+  border-radius:14px;
+
+  padding:8px 12px;
+}
+
+.interview-card > svg{
+
+  color:#9ca3af;
+}
+
+/* 按钮 */
+
+.start-btn{
+
+  width:100%;
+
+  height:62px;
+
+  border:none;
+
+  border-radius:31px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:700;
+
+  display:flex;
+
+  justify-content:center;
+  align-items:center;
+
+  gap:8px;
+
+  cursor:pointer;
+
+  box-shadow:
+  0 20px 40px rgba(91,82,243,.25);
+}
+
+.start-btn:hover{
+
+  opacity:.95;
+}
+
+/* 手机 */
+
+@media (max-width:480px){
+
+  .interview-history-page{
+
+    padding:18px;
+    padding-bottom:100px;
+  }
+
+  .history-header h1{
+
+    font-size:24px;
+  }
+
+  .summary-card{
+
+    border-radius:24px;
+  }
+
+  .interview-card{
+
+    border-radius:20px;
+
+    padding:16px;
+  }
+
+  .score-box{
+
+    min-width:60px;
+
+    font-size:14px;
+  }
+
+}

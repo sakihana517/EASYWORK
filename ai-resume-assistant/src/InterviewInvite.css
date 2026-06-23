@@ -1,0 +1,255 @@
+.invite-page{
+
+  max-width:430px;
+
+  margin:auto;
+
+  min-height:100vh;
+
+  background:#eef2ef;
+
+  padding:24px;
+}
+
+/* 顶部 */
+
+.invite-header{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:16px;
+
+  margin-bottom:24px;
+}
+
+.invite-header h1{
+
+  font-size:30px;
+
+  font-weight:700;
+
+  color:#15161d;
+}
+
+.back-btn{
+
+  width:52px;
+  height:52px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.06);
+}
+
+/* 卡片 */
+
+.invite-card,
+.info-card,
+.skill-card{
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:24px;
+
+  margin-bottom:18px;
+
+  box-shadow:
+  0 12px 30px rgba(0,0,0,.05);
+}
+
+.avatar-box{
+
+  width:90px;
+  height:90px;
+
+  margin:auto;
+
+  border-radius:50%;
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  color:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+}
+
+.invite-card{
+
+  text-align:center;
+}
+
+.invite-card h2{
+
+  margin-top:16px;
+}
+
+.invite-card p{
+
+  margin-top:8px;
+
+  color:#8d91a4;
+}
+
+/* 信息 */
+
+.info-item{
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  padding:14px 0;
+
+  border-bottom:1px solid #f1f1f1;
+}
+
+.info-item:last-child{
+
+  border:none;
+}
+
+/* 考察内容 */
+
+.skill-card h3{
+
+  margin-bottom:16px;
+}
+
+.skill-item{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:8px;
+
+  padding:10px 0;
+}
+
+.skill-item svg{
+
+  color:#22c55e;
+}
+
+/* 电话动画 */
+
+.calling-box{
+
+  text-align:center;
+
+  margin:30px 0;
+}
+
+.phone-wave{
+
+  width:80px;
+  height:80px;
+
+  margin:auto;
+
+  border-radius:50%;
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  color:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  animation:pulse 1.5s infinite;
+}
+
+.calling-box p{
+
+  margin-top:12px;
+
+  color:#6b7280;
+}
+
+@keyframes pulse{
+
+  0%{
+    transform:scale(1);
+  }
+
+  50%{
+    transform:scale(1.08);
+  }
+
+  100%{
+    transform:scale(1);
+  }
+}
+
+/* 主按钮 */
+
+.accept-btn{
+
+  width:100%;
+
+  height:74px;
+
+  border:none;
+
+  border-radius:37px;
+
+  color:white;
+
+  font-size:18px;
+
+  font-weight:700;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  gap:8px;
+
+  cursor:pointer;
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  box-shadow:
+  0 20px 40px rgba(91,82,243,.25);
+}

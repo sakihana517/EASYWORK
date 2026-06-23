@@ -1,0 +1,249 @@
+.timeline-page{
+
+  max-width:430px;
+
+  margin:auto;
+
+  min-height:100vh;
+
+  background:#eef2ef;
+
+  padding:24px;
+
+  padding-bottom:120px;
+}
+
+/* 顶部 */
+
+.timeline-header{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:16px;
+
+  margin-bottom:24px;
+}
+
+.timeline-header h1{
+
+  font-size:28px;
+
+  font-weight:700;
+
+  color:#15161d;
+}
+
+.back-btn{
+
+  width:52px;
+  height:52px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:white;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  cursor:pointer;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.06);
+}
+
+/* 统计 */
+
+.summary-card{
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #5b52f3
+  );
+
+  border-radius:30px;
+
+  padding:24px;
+
+  display:flex;
+
+  justify-content:space-around;
+
+  color:white;
+
+  margin-bottom:28px;
+
+  box-shadow:
+  0 20px 40px rgba(91,82,243,.25);
+}
+
+.summary-item{
+
+  text-align:center;
+}
+
+.summary-item h2{
+
+  font-size:30px;
+
+  margin-bottom:6px;
+}
+
+.summary-item span{
+
+  font-size:13px;
+
+  opacity:.9;
+}
+
+/* 时间轴 */
+
+.timeline-list{
+
+  position:relative;
+}
+
+.timeline-item{
+
+  display:flex;
+
+  gap:14px;
+
+  margin-bottom:20px;
+}
+
+.timeline-left{
+
+  width:24px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+}
+
+.dot{
+
+  width:14px;
+  height:14px;
+
+  border-radius:50%;
+
+  background:#5b52f3;
+}
+
+.line{
+
+  width:3px;
+
+  flex:1;
+
+  background:#d9ddf5;
+
+  margin-top:4px;
+}
+
+.timeline-card{
+
+  flex:1;
+
+  background:white;
+
+  border-radius:24px;
+
+  padding:18px;
+
+  cursor:pointer;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.05);
+}
+
+.year{
+
+  display:inline-block;
+
+  background:#eef2ff;
+
+  color:#5b52f3;
+
+  padding:6px 12px;
+
+  border-radius:12px;
+
+  font-size:12px;
+
+  margin-bottom:10px;
+}
+
+.timeline-card h3{
+
+  font-size:18px;
+
+  color:#15161d;
+
+  margin-bottom:6px;
+}
+
+.timeline-card p{
+
+  color:#6b7280;
+
+  margin-bottom:10px;
+}
+
+.time-row{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  font-size:13px;
+
+  color:#8d91a4;
+
+  margin-bottom:10px;
+}
+
+.achievement{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  color:#16a34a;
+
+  font-size:14px;
+
+  font-weight:600;
+
+  margin-bottom:12px;
+}
+
+.detail-btn{
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:flex-end;
+
+  gap:4px;
+
+  color:#5b52f3;
+
+  font-size:14px;
+
+  font-weight:600;
+}

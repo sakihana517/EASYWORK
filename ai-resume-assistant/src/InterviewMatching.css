@@ -1,0 +1,240 @@
+.matching-page{
+
+  max-width:430px;
+
+  margin:auto;
+
+  min-height:100vh;
+
+  background:#eef2ef;
+
+  padding:24px;
+}
+
+.matching-header{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:16px;
+
+  margin-bottom:24px;
+}
+
+.matching-header h1{
+
+  font-size:30px;
+
+  font-weight:700;
+
+  color:#15161d;
+}
+
+.back-btn{
+
+  width:52px;
+  height:52px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.06);
+
+  cursor:pointer;
+}
+
+/* 圆环 */
+
+.progress-card{
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:30px;
+
+  text-align:center;
+
+  margin-bottom:18px;
+
+  box-shadow:
+  0 12px 30px rgba(0,0,0,.05);
+}
+
+.progress-circle{
+
+  width:160px;
+  height:160px;
+
+  margin:auto;
+
+  border-radius:50%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  font-size:34px;
+
+  font-weight:800;
+
+  color:#5b52f3;
+
+  background:
+  conic-gradient(
+    #5b52f3 0deg,
+    #3b82f6 330deg,
+    #e5e7eb 330deg
+  );
+}
+
+.progress-circle span{
+
+  width:130px;
+  height:130px;
+
+  background:white;
+
+  border-radius:50%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+}
+
+.progress-card h2{
+
+  margin-top:20px;
+
+  color:#15161d;
+}
+
+.progress-card p{
+
+  margin-top:10px;
+
+  color:#8d91a4;
+}
+
+/* 分析项 */
+
+.analysis-card{
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:24px;
+
+  margin-bottom:18px;
+
+  box-shadow:
+  0 12px 30px rgba(0,0,0,.05);
+}
+
+.analysis-item{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  padding:14px 0;
+
+  color:#15161d;
+
+  border-bottom:1px solid #f1f1f1;
+}
+
+.analysis-item:last-child{
+
+  border:none;
+}
+
+.analysis-item svg{
+
+  color:#22c55e;
+}
+
+.loading svg{
+
+  color:#5b52f3;
+
+  animation:spin 1s linear infinite;
+}
+
+/* 提示 */
+
+.tips-card{
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:24px;
+
+  box-shadow:
+  0 12px 30px rgba(0,0,0,.05);
+}
+
+.tips-card h3{
+
+  margin-bottom:12px;
+
+  color:#15161d;
+}
+
+.tips-card p{
+
+  line-height:1.8;
+
+  color:#6b7280;
+}
+
+@keyframes spin{
+
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+@media(max-width:480px){
+
+  .matching-page{
+    padding:18px;
+  }
+
+  .matching-header h1{
+    font-size:24px;
+  }
+
+  .progress-circle{
+    width:140px;
+    height:140px;
+  }
+
+  .progress-circle span{
+    width:114px;
+    height:114px;
+  }
+}
