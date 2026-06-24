@@ -85,15 +85,15 @@ function MyPage() {
 
       <section className="vip-card">
 
-        <div className="vip-title">
+        <div className="vip-header">
 
           <Crown size={20}/>
 
-          <span>Plus会员</span>
+          <h3>Plus会员</h3>
 
         </div>
 
-        <p>
+        <p className="vip-desc">
           无限使用全部AI功能
         </p>
 
@@ -115,7 +115,17 @@ function MyPage() {
 
       <section className="usage-card">
 
-        <h3>免费版剩余次数</h3>
+        <div className="usage-header">
+
+          <FileText size={18}/>
+
+          <h3>免费版剩余次数</h3>
+
+        </div>
+
+        <p className="usage-subtitle">
+          当前免费用户可使用的AI功能额度
+        </p>
 
         <div className="usage-item">
 
